@@ -11,8 +11,8 @@
  Demo Link-https://youtu.be/oCiaLRYk1DA
  
  ### Team Members:-
-      Hari Prasath N
-      Shamrajbabu T
-      Vignesh B S
-      Sarathi S S
-      Veerasuriyan K B
+ Hari Prasath N
+ Shamrajbabu T
+ Vignesh B S
+ Sarathi S S
+ Veerasuriyan K B

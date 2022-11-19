@@ -1,0 +1,64 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+h2 {text-align: center;}
+* {
+box-sizing: border-box;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-image: url(https://wallpapercave.com/wp/wp4128800.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+</style>
+ 
+
+</head>
+<body>
+
+<h1><br><center>Prediction  Of Flight Delay</center></h1>
+
+
+<form action="predict" method= "POST"><font size =3>
+    <label for="fno"><b><span style="padding-left:200px;">Flight Number:<input type="number" id="fno" name="name"></label><br><br><br></span>
+    <label for="mo"><span style="padding-left:200px;">Month:<input type="number" id="mo" name="month"></label><br><br><span style="padding-left:900px;"><b>{{showcase}}</b><br></span>
+    <label for="Dmo"><span style="padding-left:200px;">Day of Month:<input type="number" id="Dmo" name="dayofmonth"></label><br><br><br></span>
+    <label for="Dmw"><span style="padding-left:200px;">Day of Week:<input type="number" id="Dmw" name="dayofweek"></label><br><br><br></span>
+    <label for="ori"><span style="padding-left:200px;">Origin:</label></span>
+    
+<select name="origin" id="ori">
+    <option value="msp">MSP</option>
+    <option value="dtw">DTW</option>
+    <option value="jfk">JFK</option>
+    <option value="sea">SEA</option>
+    <option value="atl">ATL</option>
+</select><br><br><br>
+
+    <label for="Des"><span style="padding-left:200px;">Destination:</label></span>
+    
+<select name="destination" id="Des">
+     <option value="msp">MSP</option>
+     <option value="dtw">DTW</option>
+     <option value="jfk">JFK</option>
+     <option value="sea">SEA</option>
+     <option value="atl">ATL</option>
+</select><br><br><br>
+<label for="SDT"><span style="padding-left:200px;">Scheduled Departure Time:<input type="number" id="SDT" name="dept"></label><br><br><br></span>
+<label for="SAT"><span style="padding-left:200px;">Scheduled Arrival Time:<input type="number" id="SAT" name="arrtime"></label><br><br><br></span>
+<label for="AAT"><span style="padding-left:200px;">Actual Departure Time:<input type="number" id="AAT" name="actdept"></label><br><br><br></span>
+    <span style="padding-left:420px;"><input style="font-size: 20px;border: 1;" type="submit" value="submit">
+    
+
+    </form>
+
+
+
+
+
+</body>
+</html>
+
+
